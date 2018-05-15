@@ -39,7 +39,7 @@ public class MainApplication extends Application {
         WLClient.createInstance(MainApplication.this);
         try {
             FlightAttendantManager.getInstance().initJsonStoreCollections(this);
-            scheduleAlarm(1);
+            scheduleAlarm(5);
         } catch (Exception e) {
             Log.d("Error:","error in initjsonstorecollections"+e.getStackTrace());
         }

@@ -1,4 +1,4 @@
-IBM Cloud Mobile Starter for Offline Data Synch Android
+IBM MobileFirst Android JSONStore Sync
 
 [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
 [![Platform](https://img.shields.io/badge/platform-android-lightgrey.svg?style=flat)](https://developer.android.com/index.html)
@@ -32,11 +32,12 @@ Follow the steps below to configure the Mobile Foundation service
 
 * Open the project in Android Studio and perform a Gradle Sync.
 
-* Go to the project folder and find a the shell script by name **mfpregisterapp.sh** and run it. Ensure that you have *execute* and *write* permissions to run these scripts.
+* Register the application in MFP Operations Console and Update the server details in **mfpclient.properties** of the application.
 
-* Deploying the adapter
-* Download the JSONStoreSync adapter from the 'Deploying the sync adapter' section from the link "https://mobilefirstplatform.ibmcloud.com/blog/2018/02/23/jsonstoresync-couchdb-databases/"
-* After registration , navigate to mobile foundation service created , go to the dashboard , Click on New button beside the Adapters tag, Click on Deploy Adapter button and upload the downloaded .adapter file. 
+* Download the JSONStoreSync adapter from the 'Deploying the sync adapter' section from [this link](https://mobilefirstplatform.ibmcloud.com/blog/2018/02/23/jsonstoresync-couchdb-databases/).
+
+* After registration , navigate to mfp operations console , go to the dashboard , Click on New button beside the Adapters tag, Click on Deploy Adapter button and upload the downloaded .adapter file. 
+
 * Configure the adapter with the Cloudant NoSQL DB credentials with database name as 'foodmenu'.
 
 ### Run
