@@ -21,7 +21,8 @@ This IBM Cloud Mobile Offline Data Synch Starter showcases the Mobile Foundation
 Creating an instance of the Offline Data Synch starter will create an instance of Cloudant NoSQL DB and Mobile Foundation service.
 
 ### Cloudant Configuration
-* To configure cloudant NoSQL DB for the Offline Data Synch app navigate to the cloudant instance created and from the service credentials tab copy the user name and password and update this information in **populate_cloudant_db.sh** which can be found in the project folder. Ensure that you have *execute* and *write* permissions to run these scripts.
+* Create the [Cloudant Service](https://console.bluemix.net/catalog/services/cloudant-nosql-db) in an [IBM Cloud Account](https://www.bluemix.net/)
+* To configure cloudant NoSQL DB for the Offline Data Synch app navigate to the cloudant instance created and from the service credentials tab copy the user name and password and update this information in **populate_cloudant_db.sh** which can be found in the android project folder. Ensure that you have *execute* and *write* permissions to run these scripts.
 * Run **populate_cloudant_db.sh**. This should populate the cloudant database with demo data.
 
 
